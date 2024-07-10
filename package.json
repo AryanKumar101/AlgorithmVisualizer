@@ -1,7 +1,7 @@
 {
   "name": "algo-visualizer",
   "private": true,
-  "homepage": "https://AryanKumar101.github.io/AlgorithmVisualizer.git",
+  "homepage": "https://AryanKumar101.github.io/AlgorithmVisualizer.git/#",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
