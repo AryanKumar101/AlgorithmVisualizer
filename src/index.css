@@ -3,6 +3,7 @@
 }
 
 .content{
+  margin-top: 5rem;
   position: absolute;
   color: white;
   text-align: center;
@@ -10,7 +11,9 @@
   width: 100%;
 }
 .content h1 {
-  font-size: 3rem;
+  font-family: "nasalization-rg", sans-serif;
+  font-size: 5rem;
+  color:chartreuse;
   margin-bottom: 1rem;
 }
 
@@ -46,4 +49,16 @@
 
 .card:hover {
   transform: scale(1.05);
+}
+
+@font-face {
+  font-family: "nasalization-rg";
+  src: local("nasalization-rg"),
+    url("./Components/nasalization/nasalization-rg.otf") format("opentype");
+  font-weight: normal;
+}
+
+
+.selector {
+  font-family: "nasalization-rg";
 }
